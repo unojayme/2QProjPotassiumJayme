@@ -1,0 +1,212 @@
+body, html{
+	margin: 0px;
+    background-color: white;
+}
+
+
+/*NAVBAR*/
+.logoStyle{
+	height: 100%;
+    margin-left: 3%;
+    float: left;
+}
+
+.navbar{
+	text-align: center;
+	background-color: black;
+	background-position: top center;
+    background-repeat: no-repeat;
+	top: 0; 
+	width: 100%;
+	padding: 1px 1px;
+	height: 8vh;
+}
+
+ul{
+    margin-left: 43%;
+}
+
+li{
+	font-size: 2.5vh;
+	color: white;
+	font-family: 'Helvetica';
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding-top: 5px;
+}
+
+li a:link {
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+
+    vertical-align: middle;
+}
+
+li a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+/*END OF NAVBAR*/
+
+.artworks{
+    display: table;
+    clear: both;
+    border:1px solid rgba(112,112,112,100%);
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.artworks h1{
+    font-family: 'Glacial Indifference';
+    font-size: 12vmin;
+    color: black;
+    text-align: center;
+    margin-bottom: -25px;
+    margin-top: 2%;
+}
+
+.artworks p {
+    font-family: 'System Font';
+    font-size: 2.7vmin;
+    color: black;
+    text-align: center;
+}
+
+.solid{
+    border-top:1px solid black;
+    width: 95%;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.img1{
+    height: 322px;
+    width: 339px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img2{
+    height: 322px;
+    width: 620px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    clear: right;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img3{
+    height: 322px;
+    width: 250px;
+    object-fit: cover;
+    border: none;
+    margin: 5px;
+    float: right;
+    clear: right;
+    border: 1px solid black;
+
+}
+
+.img5{
+    height: 305px;
+    width: 375px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img4{
+    height: 305px;
+    width: 850px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img6{
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    clear: right;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img7{
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    clear: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+
+.img8{
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    clear: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img10{
+    height: 400px;
+    width: 550px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    clear: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img11{
+    height: 305px;
+    width: 375px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.img12{
+    height: 305px;
+    width: 850px;
+    object-fit: cover;
+    border: none;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+}

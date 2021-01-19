@@ -1,0 +1,133 @@
+html, body {
+  background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    top: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    z-index: 21;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+    text-align: center;
+}
+.navbar p, .navbar ul{
+    display: inline;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  bottom: 5px;
+  margin-left: 25px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
+
+.navbar ul li {
+    text-align: center;
+    display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+.navbar ul li a:hover{
+  color: purple;
+}
+
+
+/* end of navigation bar */
+
+
+
+
+/*MIDDLE CONTENT*/
+
+.container #image{
+  display: block;
+  margin: 5% auto ;
+  width: 50%;
+}
+
+.container2{
+  margin-top: -7%;
+  margin-bottom: 2.5%;
+}
+.container2 #text{
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+	font-size: max(1.3vw,8px);
+}
+
+
+/*end of middle content*/
+
+
+
+.portal {
+  box-shadow:  0.6925207756232687vh  1.3850415512465375vh  tomato;
+  width: 25%; 
+  padding: 0px;
+  margin-top: 0px;
+  margin: 0 auto 5%;
+  display: block;
+  text-align: center;
+  font-size: max(1.29vw);
+  letter-spacing: -.009em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 90px;
+
+
+}
+
+.portal p .link{
+  color: black;
+  text-decoration: none;
+}
+
+.portal p .link:active{
+  font-weight: bold;
+}
+
+
+.portal:hover{
+  background-color: white;
+  border-color: white;
+  box-shadow:  0.6925207756232687vh  1.3850415512465375vh  orange;
+  transition: .3s;
+  cursor: pointer;
+  
+}
+
+.portal:active{
+  background-color: white;
+  border-color: white;
+  box-shadow: 0.6925207756232687vh  1.3850415512465375vh tomato;
+  cursor: pointer;
+}
+
+.portal:visited{
+  background-color: white;
+  border-color:  0.6925207756232687vh  1.3850415512465375vh  orange;
+  cursor: pointer;
+}

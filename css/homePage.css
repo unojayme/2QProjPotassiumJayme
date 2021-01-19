@@ -1,0 +1,1192 @@
+body, html{
+	margin: 0 0 0 0;
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	background-position: center top;
+ 	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header{
+	top: 0;
+    left: 0;
+    height: 5vh;
+	width: auto;
+	margin: 0;
+    padding: 10px;
+	background-color: white;
+}
+
+main{
+	margin: 0 1% 0;
+}
+
+.navigation{
+	margin: 0 3% 0;
+}
+
+.navigation ul{
+	display: inline;
+}
+
+.navigation .list1 li{
+	display: inline;
+	list-style-type: none;
+	float: left;
+	font-family: Glacial Indifference;
+	font-size: 4vh;
+}
+
+.navigation .list1 li a{
+	color: orange;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 1vh 1.5vh;
+	width: 5%;
+}
+
+.navigation .list2 li a{
+	color: orange;
+	text-decoration: none;
+	padding: 1vh 1.5vh;
+	width: 5%;
+}
+
+.navigation ul li a:hover{
+	color: orangered;
+	transition: .3s;
+}
+
+.header h1{
+	font-size: 60vh;
+}
+
+.box1{
+	width: 100%;
+	margin: 1% 2% 0% 0;
+	border: 1px solid white;
+	overflow: hidden;
+	border-radius: 50px;
+	height: 40vw;
+}
+
+
+.right{
+	float: right;
+	width: 40%;
+}
+
+.left{
+	float: left;
+	clear: left;
+	width: 60%;
+}
+
+.left img {
+	position: relative;
+	display: inline-block;
+}
+  
+.left .tooltiptext {
+	visibility: hidden;
+	width: auto;
+	background-color: white;
+	color: black;
+	text-align: justify;
+	padding: .8vw;
+	border-radius: 1vw;
+	font-family: Glacial Indifference;
+	font-size: 1vw;
+	width: 50%;
+	top: 45vw;
+	left: 10vw;
+	margin-left: -6vw; 
+	position: absolute;
+	z-index: 1;
+}
+  
+.left:hover .tooltiptext {
+	visibility: visible;
+}
+
+img{
+	width: 100%;
+	margin-bottom: -1em;
+}
+
+main .box1 .right h1{
+	float: right;
+	font-family: Glacial Indifference;
+	font-size: 9vw;
+	color: white;
+	font-weight: bolder;
+	text-align: right;
+	line-height: 70%;
+	margin-top: 37%;
+	margin-bottom: 0%;
+	text-shadow: .3vw .3vw orangered;
+	margin-right: 10%;
+}
+
+main .box1 .right p{
+	float: right;
+	font-family: Glacial Indifference;
+	font-size: 1.3vw;
+	color: white;
+	text-align: right;
+	margin-right: 10%;
+}
+
+.box2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.box2 .title h1{
+	display: block;
+	text-align: center;
+	font-family: Glacial Indifference;
+	font-size: 7vw;
+	margin-bottom: 3%;
+	color: white;
+	font-weight: bolder;
+
+}
+
+.box2 .border .navbar{
+	display: block;
+	margin: 0 auto 2%;
+	width: auto;
+	padding: 1px;	
+}
+
+.box2 .border .navbar ul {
+    margin: 0.1vw 0 0.1vw;
+    padding: 0;
+    text-align: center;
+}
+.box2 .border .navbar li {
+    display: inline;
+	list-style: none; 
+	font-size: 1.5vw;
+	font-family: Glacial Indifference;
+	margin: 0;
+}
+
+.box2 .border .navbar ul li a:link,.box2 .navbar ul li a:visited
+{
+    display:inline-block;
+	width: 14vw;
+	height: 2vw;
+	border: 1px solid transparent;
+	border-radius: 50px;
+    color:#FFFFFF;
+    text-align:center;
+    text-decoration:none;
+}
+
+.box2 .border{
+    background-color: rgba(0,0,0,.3);
+	display: block;
+	margin: auto ;
+	width: 60vw;
+	border-radius: 17px;	
+}
+
+.box2 .border .navbar ul li a:hover,.box2 .navbar ul li a:active{
+	background-color: white;
+	opacity: 1;
+	color: black;
+	transition: 1s;
+
+}
+
+.box3{
+	height: auto;
+	width: auto;
+	margin: 6% 0 3%;
+	border-radius: 4vw;
+	border: 1px solid white;
+	background-color: rgb(255, 255, 255);
+}
+
+.box3 .inside{
+	display: block;
+	text-align: center;
+	margin: 0 auto 0;
+}
+
+.box3 .inside h1{
+	font-family: Glacial Indifference;
+	font-size: 4.7vw;
+	margin: 5% 0 2%;
+	color: orange;
+	font-weight: bolder;
+}
+
+.box3 .inside p{
+	font-family: Glacial Indifference;
+	font-size: 	1.5vw;
+	color: black;
+	margin: 0 15% 5%;
+}
+
+.box3 .inside a{
+	color: orangered;
+}
+
+.box4{
+	height: auto;
+	width: auto;
+	margin: 0 0 5% 0;
+	overflow: hidden;
+}
+
+.box4 .top{
+	height: 50%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.box4 .top .left{
+	width: 30%;
+	overflow: hidden;
+	border-radius: 3.7vw;
+	height: 18vw;
+	border: 1px solid white;
+	background-color: white;
+}
+
+.box4 .top .left a{
+	display: block;
+	text-align: center;
+	margin: 0 auto 0;
+}
+
+.box4 .top .right {
+	width: 68%;
+	overflow: hidden;
+	border-radius: 3.7vw;
+	height: 18vw;
+	border: 1px solid white;
+}
+
+.box4 .top .right:hover {
+	background-color: white;
+	transition: .3s;
+}
+
+.box4 .top .right a{
+	display: block;
+	text-align: center;
+	margin: 0 auto 0;
+	text-decoration: none;
+}
+
+.box4 .top .right a img{
+	float: right;
+	width: 30vw;
+	margin-right: 2%;
+	margin-top: -1.5vw;
+}
+
+.box4 .top .right a h1{
+	font-family: Glacial Indifference;
+	font-size: 4.7vw;
+	color: white;
+	font-weight: bolder;
+	text-align: left;
+	margin-left: 6%;
+	margin-bottom: -.5vw;
+	margin-top: 1vw;
+	line-height: 4.3vw;
+}
+
+.box4 .top .right:hover a h1{
+	color: orange;
+	text-shadow: none;
+}
+
+.box4 .top .right a p{
+	font-family: Glacial Indifference;
+	font-size: 1vw;
+	color: black;
+	text-align: left;
+	margin-left: 6%;
+}
+
+.box4 .top .right a p:hover{
+	text-decoration: 3px underline orangered;
+}
+
+.box4 .bottom{
+	height: 50%;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 2.5%;
+}
+
+.box4 .bottom .left{
+	border: 1px solid white;
+	width: 50%;
+	overflow: hidden;
+	border-radius: 3.7vw;
+	height: 18vw;
+}
+
+.box4 .bottom .left img{
+	margin: -1vw -1vw;
+	width: 110%;
+}
+
+.box4 .bottom .right{
+	width: 47%;
+	overflow: hidden;
+	height: 18vw;
+}
+
+
+.box4 .bottom .right h1{
+	font-family: Glacial Indifference;
+	font-size: 5vw;
+	color: white;
+	font-weight: bolder;
+	text-align: left;
+	margin-bottom: -.5vw;
+	margin-top: 2vw;
+	line-height: 4.5vw;
+	text-shadow: .3vw .3vw  black;
+}
+  
+/*wave background*/
+.curved-div {
+	position: relative;
+	background: #fff;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+}
+.curved-div svg {
+	display: block;
+	margin-top: -7vw;
+}
+.curved-div.upper {
+	background: transparent;
+}
+
+/*articles*/
+.articles{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.articles .container{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 4vw 0 4vw 0;
+}
+
+.articles h1{
+	text-align: center;
+	font-family: Glacial Indifference;
+	color: black;
+	font-size: 6vw;
+	margin: -1.5vw 0 0 0;
+}
+
+.articles a{
+	margin-left: .5vw;
+}
+
+.articles .text1 h1{
+	font-size: 4.5vw;
+	text-align: center;
+	display: inline-block;
+	color: orange;
+}
+
+.articles .text1 a{
+	text-align: left;
+	transform:translateY(-1vw);
+	font-family: Glacial Indifference;
+	font-size: 1.4vw;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.articles .text1 a:visited{
+	color: black;
+}
+
+.articles .text1 a:hover{
+	color: orange;
+	transition: .2s;
+}
+
+.articles .text2 h1{
+	font-size: 4.5vw;
+	text-align: center;
+	display: inline-block;
+	color: orange;
+}
+
+.articles .text2 a{
+	text-align: left;
+	font-family: Glacial Indifference;
+	font-size: 1.4vw;
+	display: inline-block;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.articles .text2 a:visited{
+	color: black;
+}
+
+.articles .text2 a:hover{
+	color: orange;
+	transition: .2s;
+}
+
+.articles .text3 h1{
+	font-size: 4.5vw;
+	text-align: center;
+	display: inline-block;
+	color: orange;
+}
+
+.articles .text3 a{
+	text-align: left;
+	font-family: Glacial Indifference;
+	font-size: 1.4vw;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.articles .text3 a:visited{
+	color: black;
+}
+
+.articles .text3 a:hover{
+	color: orange;
+	transition: .2s;
+}
+
+
+/* characters */
+#characters{
+	background-image: url("../images/Clover\ Kingdom.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin-top: 15vw;
+	padding: 10vw 0 10vw 0;
+}
+
+#characters .title h1 {
+    width: 100%;
+    margin: 0 auto 0;
+	font-family: Glacial Indifference;
+    text-align: center;
+    font-size: 6vw;
+	color: white;
+	text-shadow: .4vw .4vw  black;
+	letter-spacing: 2vw;
+}
+
+#characters .chars {
+	margin: 2vw auto 0 auto ;
+	width: 70%;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content:space-between;
+	border-radius: 5vw;
+	padding: 2vw 2vw 2vw 2vw;
+}
+
+.guild1{
+    height: 15vw;
+    width: 15vw;
+    background-color: black;
+	border-radius: 15vw;
+    float: left;
+	margin-top: -1px;
+	border: .5vw solid white;
+	overflow: hidden;
+}
+
+.guild1 img{
+	clip-path: circle(20vw at center);
+	transform: scale(1.3, 1.3) translate(.5vw);
+}
+
+.guild1:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild2{
+	float: left;
+    height: 15vw;
+    width: 15vw;
+    background-color: black;
+	border-radius: 15vw;
+    margin-top: -1px;
+	margin-bottom: 2%;
+	overflow: hidden;
+	border: .5vw solid white;
+}
+
+.guild2 img{
+	clip-path: circle(20vw at center);
+	transform: scale(.9, .9);
+}
+
+.guild2:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild3{
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    background-color: silver;
+	border-radius: 15vw;
+    margin-top: -1px;
+	margin-bottom: 2%;
+	overflow: hidden;
+	border: .5vw solid white;
+}
+
+.guild3 img{
+	clip-path: circle(5vw at center);
+	transform: scale(1.7, 1.7) translate(0px,1.9vw);
+}
+
+.guild3:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild4{
+    height: 15vw;
+    width: 15vw;
+    background-color: #2c4973;
+	border-radius: 15vw;
+    float: left;
+	margin-top: -1px;
+	border: .5vw solid white;
+	overflow: hidden;
+}
+
+.guild4 img{
+	clip-path: circle(5vw at center);
+	transform: scale(1.7, 1.7) translate(0px,1.5vw);
+}
+
+.guild4:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild5{
+    height: 15vw;
+    width: 15vw;
+    background-color: #56745a;
+	border-radius: 15vw;
+    float: left;
+	margin-top: -1px;
+	border: .5vw solid white;
+	overflow: hidden;
+}
+
+.guild5 img{
+	clip-path: circle(5vw at center);
+	transform: scale(1.6, 1.6) translate(.1vw,1.8vw);
+}
+
+.guild5:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild6{
+	float: left;
+    height: 15vw;
+    width: 15vw;
+    background-color: #a6c7ce;
+	border-radius: 15vw;
+    margin-top: -1px;
+	margin-bottom: 2%;
+	overflow: hidden;
+	border: .5vw solid white;
+}
+
+.guild6 img{
+	clip-path: circle(10vw at center);
+	clip-path: circle(20vw at center);
+	transform: scale(1.3, 1.3);
+}
+
+.guild6:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild7{
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    background-color: #b2687f;
+	border-radius: 15vw;
+    margin-top: -1px;
+	margin-bottom: 2%;
+	overflow: hidden;
+	border: .5vw solid white;
+}
+
+.guild7 img{
+	clip-path: circle(5vw at center);
+	transform: scale(1.5, 1.5);
+}
+
+.guild7:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+.guild8{
+    height: 15vw;
+    width: 15vw;
+    background-color: #796886;
+	border-radius: 15vw;
+    float: left;
+	margin-top: -1px;
+	border: .5vw solid white;
+	overflow: hidden;
+}
+
+.guild8 img{
+	clip-path: circle(5vw at center);
+	transform: scale(1.4, 1.4);
+}
+
+.guild8:hover a{
+	opacity: 0.3;
+	transition: .5s ;
+}
+
+/*design*/
+.design{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin-top: -18vw;
+}
+
+.design1{
+	width: 50%;
+	margin: 0vw 30vw 5vw -10vw;
+	z-index: 1;
+	position: relative;
+}
+
+.design2{
+	width: 35%;
+	margin: 0vw 0vw -10vw -60vw;
+	z-index: 0;
+	position: relative;
+}
+
+.design3{
+	width: 40%;
+	margin: 0 0vw -10vw -5vw;
+	transform: scaleX(-1);
+	z-index: 0;
+	position: relative;
+}
+
+.design4{
+	width: 40%;
+	margin: 0 0vw -65vw 0;
+	transform: scaleX(-1);
+	z-index: 1;
+	position: relative;
+}
+
+/*artworks*/
+section.artwork{
+	margin: 8vw auto 10vw;
+}
+
+section.artwork h1{
+	font-family: Glacial indifference;
+	font-weight: bolder;
+	font-size: 5.7vw;
+	text-align: center;
+	color: white;
+	text-shadow: .3vw .3vw black;
+}
+
+.artwork .container{
+	width: 55vw;
+	border: 1px solid white;
+	background-color: white;
+	padding: -2vw .5vw 0 .5vw;
+	overflow: hidden;
+	margin: -3vw auto 0;
+	border-radius: 2vw;
+}
+
+.artwork .container .image a{
+	width: 55vw;
+	margin: auto;
+	overflow: hidden;
+}
+
+section.artwork .container .displayPic{ 
+	height: 5vw;
+    width: 5vw;
+    background-color: white;
+	border-radius: 15vw;
+    float: left;
+	margin: .5vw 37% .5vw;
+	border: .1vw solid black;
+	overflow: hidden;
+}
+
+section.artwork .container .displayPic img{
+	clip-path: circle(20vw at center);
+	transform: scale(1,1);
+}
+
+section.artwork .container a{
+	font-family: Glacial Indifference;
+	float: left;
+	font-size: 1.5vw;
+	font-weight: normal;
+	text-decoration: none;
+	color: black;
+	line-height: 1.4vw;	
+	margin: 2.2vw -19vw 0;
+}
+
+section.artwork .container a span{
+	font-weight: bolder;
+}
+
+/*episodes*/
+.episodes{
+	width: 70%;
+	position: relative;
+	border: 1px solid white;
+	background-color: white;
+	margin: 10vw auto 0 auto;
+	margin-top: -20vw;
+	z-index: 2;
+}
+
+.episodes .container{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+
+.episodes h1{
+	text-align: center;
+	font-family: Glacial Indifference;
+	color: black;
+	font-size: 6vw;
+	margin-bottom: 0;
+}
+
+.episodes a{
+	margin-left: .5vw;
+}
+
+.episodes .text1 h1{
+	font-size: 4.5vw;
+	text-align: center;
+	display: inline-block;
+	margin: 2.5vw 0 -4vw 0;
+	color: orange;
+}
+
+.episodes .text1 a{
+	text-align: left;
+	font-family: Glacial Indifference;
+	font-size: 1.4vw;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.episodes .text1 a:visited{
+	color: black;
+}
+
+.episodes .text1 a:hover{
+	color: orange;
+	transition: .2s;
+}
+
+.episodes .text2 h1{
+	font-size: 4.5vw;
+	margin: 0 0 -4vw 0;
+	text-align: center;
+	display: inline-block;
+	color: orange;
+}
+
+.episodes .text2 a{
+	text-align: left;
+	font-family: Glacial Indifference;
+	font-size: 1.4vw;
+	display: inline-block;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.episodes .text2 a:visited{
+	color: black;
+}
+
+.episodes .text2 a:hover{
+	color: orange;
+	transition: .2s;
+}
+
+.episodes .text3 h1{
+	font-size: 4.5vw;
+	text-align: center;
+	display: inline-block;
+	color: orange;
+	margin: 0 0 -4vw 0;
+}
+
+.episodes .text3 a{
+	text-align: left;
+	font-family: Glacial Indifference;
+	font-size: 1.4vw;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-bottom: 5vw;
+}
+
+.episodes .text3 a:visited{
+	color: black;
+}
+
+.episodes .text3 a:hover{
+	color: orange;
+	transition: .2s;
+}
+
+/*merchandise*/
+
+.merch h1{
+	font-family: Glacial Indifference;
+	font-size: 6vw;
+	color: white;
+	text-align: center;
+	margin: 10vw 0 0 0;
+	text-shadow: 5px 5px black;
+}
+
+.merchandise{
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	width: 60%;
+	margin: 0 auto;
+	padding: 2vw 0 0 0;
+}
+
+.bclover{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+	clear: left;
+	margin: 0 2% 0 0;
+}
+
+.bclover a {
+	text-align: center;
+	display: block;
+	margin-top: 1.3vw;
+	font-family: Glacial Indifference;
+	font-size: 2vw;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.amazon{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+    clear: left;
+	overflow: hidden;
+	margin: 0 2% 0 0;
+}
+
+.amazon a img{
+	margin: .2vw auto 0;
+	position: relative;
+	display: block;
+}
+
+
+.rakuten{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+    clear: left;
+	overflow: hidden;
+	margin: 0 2% 0 0;
+}
+
+.rakuten a img{
+	margin: .2vw auto 0;
+	position: relative;
+	display: block;
+}
+
+.shop7net{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+    clear: left;
+	overflow: hidden;
+	margin: 0 2% 0 0;
+}
+
+.shop7net a img{
+	margin: .2vw auto 0;
+	position: relative;
+	display: block;
+}
+
+.kinokuniya{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+    clear: left;
+	overflow: hidden;
+	margin: 2% 2% 0 0;
+}
+
+.kinokuniya a img{
+	margin: .2vw auto 0;
+	position: relative;
+	display: block;
+}
+
+
+.yodobashi{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+    clear: left;
+	overflow: hidden;
+	margin: 2% 2% 0 0;
+}
+
+.yodobashi a img{
+	margin: .2vw auto 0;
+	position: relative;
+	display: block;
+}
+
+.honto{
+    height: 5vw;
+    width: 12.5vw;
+	background-color: white;
+	border: 1px solid black;
+    float: left;
+    clear: left;
+	overflow: hidden;
+	margin: 2% 2% 0 0;
+}
+
+.honto a img{
+	margin: .2vw auto 0;
+	position: relative;
+	display: block;
+}
+
+/*footer*/
+footer{
+	background-color: white;
+	margin: 10vw 0 0 0;
+	text-align: center;
+	height: auto;
+}
+
+footer .top{
+	margin: 0 0 0 0;
+	border: 1px solid white;
+}
+
+footer .top p{
+	font-family: Glacial Indifference;
+	font-weight: bold;
+	color: orange;
+	font-size: 2.5vw;
+	margin: 5vw 0 -1vw 0;
+}
+
+/*socials*/
+.socials a {
+	height: 3vw;
+	display: inline-block;
+	position: relative;
+	margin: 3vw .5vw 0 0;
+}
+
+.socials a.Twitter {
+	background: url('../images/social\ media\ sprites.png') no-repeat -3px -5px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a:hover.Twitter {
+	background: url('../images/social\ media\ sprites.png') no-repeat -3px -62px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a.Facebook {
+	background: url('../images/social\ media\ sprites.png') no-repeat -60px -5px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a:hover.Facebook {
+	background: url('../images/social\ media\ sprites.png') no-repeat -60px -62px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a.Instagram {
+	background: url('../images/social\ media\ sprites.png') no-repeat -117px -5px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a:hover.Instagram {
+	background: url('../images/social\ media\ sprites.png') no-repeat -117px -62px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a.Youtube {
+	background: url('../images/social\ media\ sprites.png') no-repeat -399px -5px;
+	width: 51px;
+	height: 51px;
+}
+
+.socials a:hover.Youtube {
+	background: url('../images/social\ media\ sprites.png') no-repeat -399px -62px;
+	width: 51px;
+	height: 51px;
+}
+
+
+.officialSite{
+	display: block;
+	margin: 0 auto 5vw 0;
+}
+
+.officialSite p{
+	font-family: Glacial Indifference;
+	font-size: 2.5vw;
+	font-weight: bold;
+	line-height: 2.3vw;
+}
+
+.officialSite .bcloverweb{
+    width: 12.5vw;
+	border: 1px solid black;
+	margin: -1vw auto;
+	padding: .8vw;
+}
+
+.bcloverweb a {
+	margin-top: 1.3vw;
+	font-family: Glacial Indifference;
+	font-size: 2vw;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.bottomText{
+	font-family: Glacial Indifference;
+	font-size: 1.5vw;
+	color: orange;
+	margin: 0 0 0 0;
+}
+
+.empty{
+	height: 3vw;
+	
+}
+/* scrollbar */
+::-webkit-scrollbar {
+	width: .7em;
+  }
+  
+::-webkit-scrollbar-track {
+    display: none;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+
+}
+
+.backToTop{
+	width: 30vw;
+	border: 1px solid white;
+	border-radius: 5vw;
+	padding: 1vw;
+	margin: 5vw auto;
+	text-align: center;
+	background-color: white;
+}
+  
+.backToTop a{
+	font-family: Glacial Indifference;
+	font-size: 1.3vw;
+	text-decoration: none;
+}
+
+.backToTop:hover a {
+	color: orange;
+	cursor: pointer;
+}
+
